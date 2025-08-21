@@ -171,7 +171,7 @@ p {
     color: #000;
     font-weight: bold;
 	  max-width: 50%;
-	  height: fit-content;
+	  height: auto;
 	  padding: 0 1em 1em 0;		/* 文字と画像との余白 */
     display: flex;
 
@@ -273,3 +273,4 @@ footer{
 	max-width: 960px;		/* 最大表示幅（変えなくてよい） */
 
 }
+
