@@ -261,7 +261,32 @@ footer{
 }
 
 @media (max-width: 600px) {
-	
+
+
+	.header {
+    height: 100vh;         /* 画面いっぱいに広げたいなら */
+    padding: 0;            /* 上下余白をリセット */
+    display: flex;         /* 中身を縦に整列 */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 28px;       /* 小さめに調整 */
+    padding-top: 0;        /* 上余白をリセット */
+    margin-bottom: 20px;   /* 下に少し余白 */
+  }
+
+  .shitayajirushi {
+    padding-top: 0;        /* スマホでは大きな余白を消す */
+    margin-top: 10px;
+    font-size: 16px;       /* 縮小 */
+    display: block;
+    text-align: center;    /* 中央配置 */
+  }
+
   /* 見出し (h1) の文字間隔を狭める */
   h1 {
     font-size: 24px;            /* 少し小さめ */
