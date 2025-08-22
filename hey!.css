@@ -299,7 +299,7 @@ footer{
   }
 
   /* 個別の画像サイズ調整例 */
-  .logo, .sologo, .sakuhin, .pspr {
+   .sakuhin, .pspr {
     max-width: 100%;            /* スマホ幅にフィット */
     float: none;                /* 回り込み解除 */
     display: block;
@@ -308,6 +308,7 @@ footer{
   }
 
 }
+
 
 
 
