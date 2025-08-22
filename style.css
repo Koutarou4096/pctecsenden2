@@ -259,3 +259,16 @@ footer{
 	margin:	0 auto 0 auto;		/* 余白（変えなくてよい） */
 	max-width: 960px;		/* 最大表示幅（変えなくてよい） */
 }
+
+@media (max-width: 600px) {
+	.header h1 {
+  font-family: "Makinas-4-Square";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0 0 0 0;
+  padding-top: 400px;
+  color: white;
+  letter-spacing: 1px;
+}
+}
