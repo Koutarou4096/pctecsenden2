@@ -274,5 +274,40 @@ footer{
 
 }
 
+/* スマホ用スタイル */
+@media (max-width: 600px) {
+
+  /* 見出し (h1) の文字間隔を狭める */
+  h1 {
+    font-size: 24px;            /* 少し小さめ */
+    letter-spacing: 1px;        /* PC時より狭め */
+    line-height: 1.3;           /* 行間もタイトに */
+    padding-left: 5px;          /* 左余白を減らす */
+  }
+
+  /* 本文の文字も少し詰める */
+  p {
+    font-size: 16px;            /* 文字サイズ小さめ */
+    line-height: 1.4;           /* 行間を狭める */
+    letter-spacing: 0;          /* 文字間は標準に */
+  }
+
+  /* 画像（横並び → 縦並び） */
+  .flex-box {
+    flex-direction: column;     /* 縦並び */
+    gap: 8px;                   /* 余白を小さく */
+  }
+
+  /* 個別の画像サイズ調整例 */
+  .logo, .sologo, .sakuhin, .pspr {
+    max-width: 100%;            /* スマホ幅にフィット */
+    float: none;                /* 回り込み解除 */
+    display: block;
+    margin: 0 auto;             /* 中央寄せ */
+    padding: 0;                 /* 余白を詰める */
+  }
+
+}
+
 
 
