@@ -55,6 +55,14 @@ body {
   background-color: #fff;
 }
 
+.chuuigaki{
+	font-family:"Zen Old Mincho";
+	font-weight:bold;
+	font-size:20px;
+	color:red;
+	letter-spacing:1px;
+}
+
 .menu_button {
   position: fixed;
   top: 16px;
