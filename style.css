@@ -204,7 +204,7 @@ h1{
   padding-left: 10px;
   
   letter-spacing: 2px;
-  
+  user-select: none;
 }
 
 footer{
