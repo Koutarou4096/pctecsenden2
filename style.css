@@ -55,14 +55,6 @@ body {
   background-color: #fff;
 }
 
-.chuuigaki{
-	font-family:"Zen Old Mincho";
-	font-weight:bold;
-	font-size:20px;
-	color:red;
-	letter-spacing:1px;
-}
-
 .menu_button {
   position: fixed;
   top: 16px;
@@ -104,7 +96,7 @@ body {
 .side_menu a {
   color: white;
   text-decoration: none;
-  font-family: "Zen Kaku Gothic New";
+  font-family: "Zen Kaku Gothic";
   font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease; /* ホバーした時のアニメーション！アニメーションって...ンフーンフフフフフ */
 }
@@ -125,7 +117,11 @@ body {
   height: 100vh;
   background-color: #5cc;
   color: white;
-  padding: 35px 0; /* 少し大きめに */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  text-align: center;
 }
 
 .header h1 {
@@ -133,28 +129,36 @@ body {
   font-weight: bold;
   font-style: italic;
   font-size: 50px;
-  margin: 0 0 0 0;
-  padding-top: 400px;
+  margin-top: auto; /* 上に寄せる */
   color: white;
   letter-spacing: 3px;
+  padding-top: 50px;
 }
 
-.scroll_shiro {
-  font-family: "Makinas-4-Square";
-  font-size: 18px;
-  font-weight: bold;
+.scroll_shiro{
   font-style: italic;
-  margin: 0 0 0 0;  
-  padding-top: 300px;
-  letter-spacing: 2px;
 }
 
+
+.scroll_shiro,
 .shitayajirushi {
   font-family: "Makinas-4-Square";
   font-size: 18px;
   font-weight: bold;
-  font-style: normal;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
 }
+
+/* SCROLLグループをラップするdivを作って下寄せ */
+.scroll-area {
+  margin-top: auto;  /* 下側に押し出す */
+  margin-bottom: 30px; /* 画面下からの余白（調整可） */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 p,h1,h2,h3,h4,h5,h6 {
 	margin-top: 10;
@@ -196,7 +200,7 @@ h1{
   color: #fff;
   font-weight: bold;
   margin-left: 0;
-  font-family: "Zen Kaku Gothic New";
+  
   padding-left: 10px;
   
   letter-spacing: 2px;
@@ -266,62 +270,4 @@ footer{
 .wrapper {
 	margin:	0 auto 0 auto;		/* 余白（変えなくてよい） */
 	max-width: 960px;		/* 最大表示幅（変えなくてよい） */
-}
-
-@media (max-width: 600px) {
-
-
-	.header {
-    height: 100vh;         /* 画面いっぱいに広げたいなら */
-    padding: 0;            /* 上下余白をリセット */
-    display: flex;         /* 中身を縦に整列 */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .header h1 {
-    font-size: 28px;       /* 小さめに調整 */
-    padding-top: 0;        /* 上余白をリセット */
-    margin-bottom: 20px;   /* 下に少し余白 */
-  }
-
-  .shitayajirushi {
-    padding-top: 0;        /* スマホでは大きな余白を消す */
-    margin-top: 10px;
-    font-size: 16px;       /* 縮小 */
-    display: block;
-    text-align: center;    /* 中央配置 */
-  }
-
-  /* 見出し (h1) の文字間隔を狭める */
-  h1 {
-    font-size: 24px;            /* 少し小さめ */
-    letter-spacing: 1px;        /* PC時より狭め */
-    line-height: 1.3;           /* 行間もタイトに */
-    padding-left: 5px;          /* 左余白を減らす */
-  }
-
-  /* 本文の文字も少し詰める */
-  p {
-    font-size: 16px;            /* 文字サイズ小さめ */
-    line-height: 1.4;           /* 行間を狭める */
-    letter-spacing: 0;          /* 文字間は標準に */
-  }
-
-  /* 画像（横並び → 縦並び） */
-  .flex-box {
-    flex-direction: column;     /* 縦並び */
-    gap: 8px;                   /* 余白を小さく */
-  }
-
-  /* 個別の画像サイズ調整例 */
-  .logo, .sologo, .sakuhin, .pspr {
-    max-width: 100%;            /* スマホ幅にフィット */
-    float: none;                /* 回り込み解除 */
-    display: block;
-    margin: 0 auto;             /* 中央寄せ */
-    padding: 0;                 /* 余白を詰める */
-  }
 }
