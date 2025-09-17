@@ -17,4 +17,4 @@ Regarding photos of club activities, we've only selected those previously used a
 
 You are welcome to use the source code as a reference for writing your own code. However, please refrain from downloading the photos depicting the activities of our members, as they contain personal copyrighted material and personal information such as faces.
 
-Copyright© Kasuga Kosuke. All rights reserved.
+Copyright© Koutarou4096. All rights reserved.
