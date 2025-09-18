@@ -1,4 +1,4 @@
-## 飯田OIDE長姫高等学校 パソコン技術部 PCTEC. 公式サイト ver.202507　Iida OIDE Osahime Highschool PC TECH Club's Website.
+## パソコン技術部 PCTEC. Webサイト ver.202507　My Highschool PC TECH Club's Website.
 
 これは僕が文化祭での展示用として制作したものです。知識ほぼゼロの状態で作り始めたのでめっちゃ時間かかったしうまくいかなくてイラつきまくりましたが、AIをほぼ使わずに完成できたのでまあ良かったなーと思ってます。
 
