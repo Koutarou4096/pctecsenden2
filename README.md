@@ -1,4 +1,4 @@
-## パソコン技術部 PCTEC. 公式サイト My Highschool PC TECH Club's Website ver.202507　
+## パソコン技術部 PCTEC. 公式サイト My Highschool PC TECH Club's Official Website ver.202507　
 
 これは僕が文化祭での展示用として制作したものです。知識ほぼゼロの状態で作り始めたのでめっちゃ時間かかったしうまくいかなくてイラつきまくりましたが、AIをほぼ使わずに完成できたのでまあ良かったなーと思ってます。
 
