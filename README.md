@@ -7,7 +7,7 @@ This is a website I created for display at our school festival. I started buildi
 
 ### ◆ 画像の著作権・肖像権について　Regarding Image Copyright and Portrait Rights.
 
-部員の活動の様子の写真に関しては、過去に部の宣材写真として使ったことがあるもののみをピックアップしています。ソフトウェアのロゴとかは…ダメかもしれないですね。校内で展示しておく分には学習目的なので問題ないと先生に言われましたが、ネット上に上げるとなると話が変わってくる気もするので、もしかしたら消すかもですね。
+部員の活動の様子の写真に関しては、過去に部の宣材写真として使ったことがあるもののみをピックアップしています。ソフトウェアのロゴとかは…ダメかもしれないですね。校内で展示しておく分には学習目的なので問題ないと先生に言われましたが、ネット上に上げるとなると話が変わってくる気もするので、もしかしたら消すかも。
 
 Regarding photos of club activities, we've only selected those previously used as promotional materials for the club. As for software logos... that might be a no-go. While the teacher said displaying them on campus for educational purposes is fine, uploading them online is a different matter. So we might have to remove them.
 
