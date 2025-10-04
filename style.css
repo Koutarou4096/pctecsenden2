@@ -96,7 +96,7 @@ body {
 .side_menu a {
   color: white;
   text-decoration: none;
-  font-family: "Zen Kaku Gothic";
+  font-family: "Zen Kaku Gothic New";
   font-size: 18px;
   transition: background-color 0.3s ease, color 0.3s ease; /* ホバーした時のアニメーション！アニメーションって...ンフーンフフフフフ */
 }
