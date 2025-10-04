@@ -131,7 +131,6 @@ body {
   font-size: 50px;
   margin-top: auto; /* 上に寄せる */
   color: white;
-  letter-spacing: 1px;
   padding-top: 50px;
 }
 
@@ -203,7 +202,6 @@ h1{
   
   padding-left: 10px;
   
-  letter-spacing: 1px;
   user-select: none;
 }
 
