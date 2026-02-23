@@ -7,4 +7,4 @@
 サイト自体、元々noindexにしているのでSEO云々は特に対策する必要はないようですが、一応canonicalは記載してあります。意味があるのかどうかは分かりません。詳しい人教えてください()
 
 ## 移行後のURL
-https://oidepctec.github.io/pctecwebsite/
+https://oidepctec.github.io/pctec/
